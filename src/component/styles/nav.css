@@ -1,0 +1,18 @@
+.nav{
+    background-color: rgb(94 234 212);
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_logo{
+    width: 5%;
+    display: flex;
+    margin: 0.5rem 0.5rem;
+}
+
+.nav_brand{
+    font-weight: bold;
+    display: flex;
+    margin-top: 2rem;
+}
