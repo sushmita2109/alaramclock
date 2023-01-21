@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/alaram.css";
+import { Card } from "./card";
 
 export const Alaram = () => {
   const date = new Date();
@@ -9,7 +10,7 @@ export const Alaram = () => {
     <div className="main">
       <h1 className="main_text">Alaram Clock</h1>
       <h1 className="main_time">{showTime}</h1>
-      <button className="main_btn">Add Alaram</button>
+      <Card />
     </div>
   );
 };
