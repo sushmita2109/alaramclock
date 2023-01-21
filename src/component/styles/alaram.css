@@ -1,0 +1,27 @@
+.main{
+    background-color: rgb(204 251 241);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.main_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_time{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_btn{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  font-weight: bold;
+}

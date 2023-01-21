@@ -1,4 +1,6 @@
 import React from "react";
+import "./styles/alaram.css";
+import { Card } from "./card";
 
 export const Alaram = () => {
   const date = new Date();
@@ -6,9 +8,9 @@ export const Alaram = () => {
     date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
   return (
     <div className="main">
-      <h1>Alaram Clock</h1>
-      <h1>{showTime}</h1>
-      <button>Add Alaram</button>
+      <h1 className="main_text">Alaram Clock</h1>
+      <h1 className="main_time">{showTime}</h1>
+      <Card />
     </div>
   );
 };
