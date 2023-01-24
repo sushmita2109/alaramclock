@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import TimePicker from "react-time-picker";
+import "./styles/card.css";
 
 export const Card = () => {
-  const [value, onChange] = useState("13:35");
+  const [value, onChange] = useState("00:00");
   const clickHandler = () => {
     setInterval(checkTime, 1000);
   };
