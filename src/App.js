@@ -1,6 +1,7 @@
 import React from "react";
 import { Alaram } from "./component/alaram";
 import { Nav } from "./component/nav";
+import { Footer } from "./component/footer";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Nav />
       <Alaram />
+      <Footer />
     </div>
   );
 }
